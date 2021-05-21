@@ -2,6 +2,7 @@
   "Post": {
     "title": "string",
     "views": "int",
+    "likes":"int",
     "published": "boolean",
     "createdAt": "date",
     "comments": "Comment[]"
