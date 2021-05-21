@@ -4,11 +4,12 @@
     "views": "int",
     "likes":"int",
     "published": "boolean",
-    "createdAt": "date",
+    "created": "date",
     "comments": "Comment[]"
   },
   "Comment": {
     "body": "string",
-    "post": "Post"
+    "post": "Post",
+    "created": "date"
   }
 }
